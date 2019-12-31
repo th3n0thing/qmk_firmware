@@ -1,5 +1,8 @@
 #pragma once
 
+/* User defined */
+#define TAPPING_TOGGLE 2
+
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x1220

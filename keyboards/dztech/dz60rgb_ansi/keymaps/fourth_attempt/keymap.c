@@ -83,8 +83,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] =
 	KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,
   KC_NO,   KC_HOME, KC_END,  KC_NO,   KC_NO,   KC_PSCR, KC_NO,   KC_NO,   KC_NO,   KC_VOLD, KC_VOLU, KC_NO,   DM_PLY1, DM_PLY2,
   KC_TRNS, DSK_LFT, DSK_RGT, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_HOME, KC_END,  SLC_R2L, SLC_L2R, KC_NO,            KC_NO,   
-  KC_LSFT,          KC_PGUP, KC_PGDN, KC_NO,   KC_NO,   KC_NO,   KC_PGUP, KC_PGDN, KC_NO,   KC_NO,   KC_NO,            KC_NO,   
-  KC_LCTL, KC_LALT, KC_TRNS,                            KC_MPLY,                            KC_NO,   KC_NO,   KC_NO,   KC_NO),
+  KC_LSFT,          KC_PGUP, KC_PGDN, KC_NO,   KC_NO,   KC_NO,   KC_PGUP, KC_PGDN, KC_NO,   KC_NO,   KC_NO,            KC_RSFT,   
+  KC_LCTL, KC_LALT, KC_TRNS,                            KC_MPLY,                            KC_NO,   KC_RGUI, KC_RALT, KC_RCTL),
 	
 	[2] = LAYOUT_60_ansi(
 	
